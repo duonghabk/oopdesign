@@ -2,5 +2,13 @@
 
 VendingMachineImpl::VendingMachineImpl()
 {
+    initialize();
+}
+void VendingMachineImpl::initialize()
+{
+
+}
+void VendingMachineImpl::seclectItemAndGetPrice()
+{
     
 }

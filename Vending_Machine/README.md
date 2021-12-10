@@ -1,4 +1,5 @@
-# oopdesign
+# Requirement:
+
 Problem Statement
 You need to design a Vending Machine which
  1. Accepts coins of 1,5,10,25 Cents i.e. penny, nickel, dime, and quarter.

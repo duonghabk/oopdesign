@@ -13,7 +13,7 @@ private:
 public:
     VendingMachine(/* args */);
     ~VendingMachine();
-    long seclectItemAndGetPrice(Item item);
+    virtual long seclectItemAndGetPrice(Item item) = 0;
     void insertCoin(Coin coin);
     list<Coin> refund();
     //Bucket<Item, List<Coin>> collectItemAndChange();
