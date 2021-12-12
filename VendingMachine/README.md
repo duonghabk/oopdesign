@@ -9,11 +9,11 @@ You need to design a Vending Machine which
  5.Finally, if all the above steps succeed then the user gets the selected item
 
 Design :
-Ready — Machine ready to accept cash
-CashCollected — Machine has collected cash & user can now select the product or cancel the transaction
-DispenseChange — Give back the change to the user
-DispenseItem — Dispense the item upon successful validation of entered cash & the price of the selected item in inventory
-TransactionCancelled — If the user cancels the transaction, return the cash given by the user
+<p>Ready — Machine ready to accept cash</p>
+<p>CashCollected — Machine has collected cash & user can now select the product or cancel the transaction</p>
+<p>DispenseChange — Give back the change to the user</p>
+<p>DispenseItem — Dispense the item upon successful validation of entered cash & the price of the selected item in inventory</p>
+<p>TransactionCancelled — If the user cancels the transaction, return the cash given by the user</p>
 <p>
 <img src="Design.jpeg" />
 </p>
