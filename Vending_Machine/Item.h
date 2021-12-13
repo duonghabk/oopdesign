@@ -1,7 +1,7 @@
 #ifndef ITEM_H_
 #define ITEM_H_
 
-#include <stdint.h>
+#include <iostream>
 
 enum Item
 {
@@ -18,4 +18,5 @@ enum Coin
     QUARTER = 25,
     OTHER = 0
 }
+
 #endif 

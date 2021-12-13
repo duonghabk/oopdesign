@@ -21,6 +21,8 @@ public:
     VendingMachineImpl(/* args */);
     ~VendingMachineImpl();
     void initialize();
+    long seclectItemAndGetPrice(Item item);
+    void insertCoin(Coin coin);
     
 };
 
