@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mock Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mock Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Mock Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Animal.h" />
+		<Unit filename="include/Animal_Factory.h" />
+		<Unit filename="include/Cat.h" />
+		<Unit filename="include/Dog.h" />
+		<Unit filename="include/Duck.h" />
+		<Unit filename="include/GraphicControl.h" />
+		<Unit filename="include/ListAnimal.h" />
+		<Unit filename="include/MacDonald.h" />
+		<Unit filename="include/Pig.h" />
+		<Unit filename="include/Resource.h" />
+		<Unit filename="include/Sound_Subject.h" />
+		<Unit filename="include/TimeManager.h" />
+		<Unit filename="include/myList.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Animal.cpp" />
+		<Unit filename="src/Animal_Factory.cpp" />
+		<Unit filename="src/Cat.cpp" />
+		<Unit filename="src/Dog.cpp" />
+		<Unit filename="src/Duck.cpp" />
+		<Unit filename="src/GraphicControl.cpp" />
+		<Unit filename="src/MacDonald.cpp" />
+		<Unit filename="src/Pig.cpp" />
+		<Unit filename="src/Resource.cpp" />
+		<Unit filename="src/Sound_Subject.cpp" />
+		<Unit filename="src/TimeManager.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

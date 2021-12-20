@@ -1,0 +1,132 @@
+# depslib dependency file v1.0
+1568173361 source:d:\my_test_pj\mock project\main.cpp
+	<iostream>
+	<iomanip>
+	<stdlib.h>
+	<GraphicControl.h>
+	<MacDonald.h>
+	<Animal.h>
+	<TimeManager.h>
+
+1568171617 source:d:\my_test_pj\mock project\src\cat.cpp
+	"Cat.h"
+
+1568171644 d:\my_test_pj\mock project\include\cat.h
+	<Animal.h>
+	<GraphicControl.h>
+
+1567047583 source:d:\my_test_pj\mock project\src\chicken.cpp
+	"Chicken.h"
+
+1567061668 d:\my_test_pj\mock project\include\chicken.h
+	<Animal.h>
+
+1568171609 source:d:\my_test_pj\mock project\src\dog.cpp
+	"Dog.h"
+
+1568171644 d:\my_test_pj\mock project\include\dog.h
+	<Animal.h>
+	<GraphicControl.h>
+
+1568171585 source:d:\my_test_pj\mock project\src\pig.cpp
+	"Pig.h"
+
+1568171644 d:\my_test_pj\mock project\include\pig.h
+	<Animal.h>
+	<GraphicControl.h>
+
+1567057397 source:d:\my_test_pj\mock project\src\resource.cpp
+	"Resource.h"
+
+1567677587 d:\my_test_pj\mock project\include\resource.h
+
+1568164523 source:d:\my_test_pj\mock project\src\timemanager.cpp
+	"TimeManager.h"
+
+1568164532 d:\my_test_pj\mock project\include\timemanager.h
+	<Animal.h>
+	<list>
+	<MacDonald.h>
+
+1568101455 source:d:\my_test_pj\mock project\src\graphiccontrol.cpp
+	"GraphicControl.h"
+
+1568088368 d:\my_test_pj\mock project\include\graphiccontrol.h
+	<iostream>
+	<iomanip>
+	<string>
+	<time.h>
+
+1568168949 source:d:\my_test_pj\mock project\src\animal.cpp
+	"Animal.h"
+
+1568168913 d:\my_test_pj\mock project\include\animal.h
+	<iostream>
+	<GraphicControl.h>
+
+1568174111 source:d:\my_test_pj\mock project\src\macdonald.cpp
+	<MacDonald.h>
+
+1568173460 d:\my_test_pj\mock project\include\macdonald.h
+	<GraphicControl.h>
+	<Resource.h>
+	<iostream>
+	<myList.h>
+	<Animal.h>
+	<Animal_Factory.h>
+	<iterator>
+	<list>
+	<Sound_Subject.h>
+
+1566963608 d:\my_test_pj\mock project\include\mylist.h
+	<iostream>
+
+1568088032 d:\my_test_pj\mock project\include\listanimal.h
+	<list>
+	<iostream>
+	<Cat.h>
+	<Dog.h>
+	<Duck.h>
+	<Pig.h>
+
+1568171644 d:\my_test_pj\mock project\include\duck.h
+	<Animal.h>
+	<GraphicControl.h>
+
+1568171599 source:d:\my_test_pj\mock project\src\duck.cpp
+	<Duck.h>
+
+1568169434 source:d:\my_test_pj\mock project\src\animal_factory.cpp
+	"Animal_Factory.h"
+
+1568173403 d:\my_test_pj\mock project\include\animal_factory.h
+	<Animal.h>
+	<ListAnimal.h>
+	<iostream>
+	<GraphicControl.h>
+	<list>
+	<Sound_Subject.h>
+
+1568109800 source:d:\my_test_pj\mock project\src\observer.cpp
+	"Observer.h"
+
+1568107064 d:\my_test_pj\mock project\include\observer.h
+
+1568082540 source:d:\my_test_pj\mock project\src\observer_die.cpp
+	"Observer_die.h"
+
+1568082540 d:\my_test_pj\mock project\include\observer_die.h
+
+1568081984 source:d:\my_test_pj\mock project\src\subject.cpp
+	"Subject.h"
+
+1568081984 d:\my_test_pj\mock project\include\subject.h
+
+1568166237 d:\my_test_pj\mock project\include\sound_subject.h
+	<Observer.h>
+	<list>
+	<Animal.h>
+
+1568169429 source:d:\my_test_pj\mock project\src\sound_subject.cpp
+	"Sound_Subject.h"
+
