@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 public class PetStore {
     private List<Pet> animals = new ArrayList<>();    
+    private Map<Pet,Human> petStoreSpecialist = new HashMap<>();
 
     //MODIFIES: this
     //EFFECTS: adds p to the petstore
@@ -33,6 +34,23 @@ public class PetStore {
             return pets.get(i);
         }
         return null;
+    }
+        //EFFECTS: prints out all pets in the store matching given attributes
+    public void displayAllPetsWithAttributes(boolean friendly, boolean needsAttention, double price) {
+        Collection<ArrayList<Pet>> allPets = animals.values();
+        // TODO
+        displayOneSpeciesWithAttributes(allPets, friendly,needsAttention, price)
+
+    }
+
+    //EFFECTS: prints out all pets of this species matching given attributes
+    public void displayOneSpeciesWithAttributes(List<Pet> petList, boolean friendly, boolean needsAttention, double price) {
+        //TODO
+        if(friendly)
+        {
+            System.out.println("Has attributes: " + p);
+        }
+        
     }
 
 }

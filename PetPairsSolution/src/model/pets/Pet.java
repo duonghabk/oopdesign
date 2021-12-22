@@ -9,12 +9,15 @@ public class Pet {
     protected String color;
     protected double price;
 
+    //public Human human;
+
     public Pet(String species, String color, boolean friendly, boolean needsAttention, double price){
         this.species = species;
         this.color = color;
         this.friendly = friendly;
         this.needsAttention = needsAttention;
         this.price = price;
+
     }
 
     public Pet(String species, String color, double price){

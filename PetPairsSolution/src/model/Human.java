@@ -63,7 +63,14 @@ public class Human {
     //EFFECTS: returns the number of pets belonging to species
     public int numPetsOfSpecies(String species) {
         //TODO 6
-        return 0;
+        int res = 0;
+        for( Pet p : pets ){
+            if (p.getSpecies().equals(species))
+                res++;
+        }
+
+        return res;
     }
+    
 
 }
